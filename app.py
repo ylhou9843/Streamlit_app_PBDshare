@@ -1,7 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="Circle K",layout="wide")
-# st.set_page_config(layout="wide")  # Use full-width layout
+st.set_page_config(page_title="RAM",layout="wide")
+st.title("RAM Dashboard")
+
 
 
 # Embed using an iframe
@@ -24,8 +25,7 @@ st.markdown(
             border: none;
         }}
         .report-container {{
-            padding: 0;
-            margin: 0;
+            margin-top: 20px;  /* space below title */
         }}
     </style>
 
