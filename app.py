@@ -5,7 +5,7 @@ st.set_page_config(page_title="Circle K",layout="wide")
 
 
 # Embed using an iframe
-powerbi_url = "https://app.powerbi.com/reportEmbed?reportId=ba8e2e97-d57f-4780-a3e9-7197cbd9f081&autoAuth=true&ctid=ebb34bb0-e0c2-4ab2-b515-215ad41ea2e6"
+powerbi_url = "https://app.powerbi.com/reportEmbed?reportId=2b7e49ce-e535-40a3-9851-662ff9852a21&autoAuth=true&ctid=ebb34bb0-e0c2-4ab2-b515-215ad41ea2e6"
 # st.markdown(
 #     f'<iframe width="1500" height="800" src="{powerbi_url}" frameborder="0" allowFullScreen="true"></iframe>',
 #     unsafe_allow_html=True
